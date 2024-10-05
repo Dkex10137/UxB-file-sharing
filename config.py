@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "24525995"))
 API_HASH = os.environ.get("API_HASH", "8e06953a7c1e119e9d6b3f121f5d88d1")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002075726565"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002134554223"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5863243258"))
@@ -29,7 +29,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://wijixew758:cluster0@cluster0.ixinn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster01")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
 FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002134554223"))
